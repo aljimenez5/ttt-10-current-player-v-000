@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0
-  board.drop(" ").each do { |element| counter += element.count }
+  board.drop(" ").each do { |element| return counter += element.count }
   end
 end
 

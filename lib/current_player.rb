@@ -1,3 +1,4 @@
+["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 
 def turn_count(board)
   counter = 0
